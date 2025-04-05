@@ -1,0 +1,29 @@
+{
+  "name": "ai_course_recomendation_prediction",
+  "version": "1.0.0",
+  "description": "AI-BASED COURSE RECOMMENDATION & PERFORMANCE ANALYTICS SYSTEM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vivekv704/SKILL-SYNC-NITDGP-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Vivekv704/SKILL-SYNC-NITDGP-/issues"
+  },
+  "homepage": "https://github.com/Vivekv704/SKILL-SYNC-NITDGP-#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.13.2"
+  }
+}
