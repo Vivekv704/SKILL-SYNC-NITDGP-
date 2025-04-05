@@ -4,7 +4,8 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import connectDB from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
-
+import routerFaculty from './routes/facultyRouteAuth.js';
+import profileRoute from './routes/profileRoute.js';
 // Initialize dotenv
 dotenv.config();
 
@@ -19,6 +20,8 @@ connectDB();
 
 // Routes
 app.use('/api', authRoutes);
+app.use('/api-faculty', routerFaculty);
+app.use('/api/profile', profileRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

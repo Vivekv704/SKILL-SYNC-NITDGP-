@@ -1,6 +1,5 @@
 import Student from '../models/studentModel.js';
 import bcrypt from 'bcryptjs';
-// Removing unused validationResult import
 
 const register = async (req, res) => {
   try {
